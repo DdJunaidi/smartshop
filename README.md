@@ -19,6 +19,14 @@ Personalized product recommendations, smart search, chatbot, reviews, cart & che
 
 ## Running locally
 
+### Frontend
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
 ### Backend
 ```bash
 cd backend
@@ -27,3 +35,4 @@ python -m venv venv && source venv/bin/activate  # Windows: venv\Scripts\activat
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
