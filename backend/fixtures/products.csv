@@ -1,0 +1,13 @@
+sku,name,description,category,price,tags,image_url
+ELEC-100,SonicPulse Headphones,Wireless over-ear bluetooth headphones with ANC,Electronics,199.90,headphones,https://picsum.photos/seed/hp/400/260
+ELEC-101,RunBeat Earbuds,Sweatproof sport earbuds with secure fit,Electronics,79.90,earbuds,https://picsum.photos/seed/eb/400/260
+SPORT-200,TrailMax Running Shoes,Lightweight trail running shoes,Sports,129.00,shoes,running,https://picsum.photos/seed/shoe/400/260
+BOOK-300,Deep Work,Productivity book by Cal Newport,Books,18.90,book,focus,https://picsum.photos/seed/book/400/260
+HOME-400,AeroBrew Coffee Maker,Programmable pour-over style coffee machine,Home,149.00,coffee,kitchen,https://picsum.photos/seed/coffee/400/260
+ELEC-102,SoundBar Mini,Compact TV sound bar with bluetooth,Electronics,129.00,soundbar,tv,https://picsum.photos/seed/sb/400/260
+FASH-100,FlexiRun Tee,Lightweight quick-dry running shirt,Fashion,29.90,"running,shirt,fitness",https://picsum.photos/seed/tee/400/260
+FASH-101,Trail Shorts,Breathable trail shorts with zip pocket,Fashion,34.90,"shorts,running,trail",https://picsum.photos/seed/shorts/400/260
+WEAR-200,FitTime Watch,Waterproof fitness smartwatch with GPS,Wearables,199.00,"smartwatch,fitness,gps",https://picsum.photos/seed/watch/400/260
+TV-300,CinemaView 43",43-inch 4K HDR TV,TV,349.00,"tv,4k,hdr",https://picsum.photos/seed/tv43/400/260
+AUDIO-400,BassBoost Speaker,Portable bluetooth speaker with deep bass,Electronics,59.90,"speaker,bluetooth",https://picsum.photos/seed/speaker/400/260
+BOOK-301,Atomic Habits,Bestseller on habit building,Books,19.90,"book,productivity",https://picsum.photos/seed/book2/400/260

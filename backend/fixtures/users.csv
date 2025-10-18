@@ -1,0 +1,11 @@
+username,first_name,last_name,email,age,gender,interests,password
+alice,Alice,Tan,alice@example.com,28,Female,"electronics, running, books",password1
+bob,Bob,Lim,bob@example.com,35,Male,"home, coffee, tv",password2
+cindy,Cindy,Ng,cindy@example.com,24,Female,"fashion, beauty, books",password3
+dave,Dave,Chen,dave@example.com,31,Male,"gaming, electronics, headphones",password4
+eric,Eric,Khoo,eric@example.com,40,Male,"home, kitchen, coffee",password5
+farah,Farah,Rahman,farah@example.com,27,Female,"sports, running, shoes",password6
+gina,Gina,Lee,gina@example.com,33,Female,"books, productivity, gadgets",password7
+han,Han,Wong,han@example.com,22,Male,"earbuds, audio, music",password8
+ivy,Ivy,Teo,ivy@example.com,29,Female,"fitness, wearables, smartwatches",password9
+jay,Jay,Tan,jay@example.com,26,Male,"tv, soundbar, consoles",password10

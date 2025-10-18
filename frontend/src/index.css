@@ -1,0 +1,132 @@
+/* ===== Base (from Vite starter, slightly tuned) ===== */
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+/* IMPORTANT: remove full-page centering so header/content align left */
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  /* removed: display:flex; place-items:center; */
+}
+
+/* Optional: large demo heading */
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+/* Base button (will be overridden by our nicer button below) */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover { border-color: #646cff; }
+button:focus, button:focus-visible { outline: 4px auto -webkit-focus-ring-color; }
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover { color: #747bff; }
+  button { background-color: #f9f9f9; }
+}
+
+/* focus ring for interactive SVG stars (applies to the wrapper div) */
+[role="slider"]:focus {
+  outline: 2px solid #7aa2ff;
+  outline-offset: 2px;
+  border-radius: 6px;
+  padding: 2px;
+}
+
+/* ===== App layout & UI polish (Step 8) ===== */
+
+/* container centers content within the page but keeps text left-aligned */
+#root {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 16px;
+}
+
+/* header row with nav links */
+header {
+  display: flex;
+  gap: 16px;
+  align-items: baseline;
+}
+header a {
+  color: #7aa2ff;
+  text-decoration: none;
+  font-weight: 600;
+}
+header a:hover { text-decoration: underline; }
+
+/* grid & cards used on Products and Home recommendations */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+.card {
+  border: 1px solid #2a2a2e;
+  border-radius: 14px;
+  padding: 12px;
+  background: #111315;
+  box-shadow: 0 2px 8px rgba(0,0,0,.15);
+}
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* “Why” badges on recommendation cards */
+.badge-why {
+  background: #f8f9fb;
+  color: #111;
+  padding: 8px;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+/* nicer primary buttons */
+button {
+  background: #2b59ff;
+  color: white;
+  border: 0;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+button:hover { filter: brightness(1.1); }
